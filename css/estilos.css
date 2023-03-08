@@ -1,1 +1,21 @@
-
+body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .transparent-image {
+      position: absolute;
+    }
+    #videoContainer {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
